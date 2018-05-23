@@ -17,7 +17,7 @@ $ npm install --save none-padding-with-left-beef
 ## Usage
 
 ```js
-const nonePaddingWithLeftBeef = require('cat-pad');
+const nonePaddingWithLeftBeef = require('none-padding-with-left-beef');
 
 nonePaddingWithLeftBeef('Mooooo');
 //=> '🐄Mooooo'
