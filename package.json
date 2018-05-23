@@ -1,0 +1,41 @@
+{
+  "name": "none-padding-with-left-beef",
+  "version": "2.0.0",
+  "description": "Adds a cow to the left of a string",
+  "license": "MIT",
+  "repository": "i-norden/none-padding-with-left-beef",
+  "author": {
+    "name": "Ian Norden",
+    "email": "iannordenn@gmail.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "none",
+    "pad",
+    "padding",
+    "left",
+    "beef",
+    "indent",
+    "format",
+    "string",
+    "str"
+  ],
+  "dependencies": {
+    "lodash.padstart": "^4.6.1"
+  },
+  "devDependencies": {
+    "ava": "1.0.0-beta.4",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
